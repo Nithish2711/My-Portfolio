@@ -1,0 +1,185 @@
+/* Body Background Color */
+body {
+  background-color: #000000 !important; /* Black background color */
+  color: #FFFFFF; /* White text color for better contrast */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main Title Styling */
+.main-title {
+  color: #FFC107; /* Dark Yellow text color */
+  font-size: 2.5rem; /* Adjusted font size for better visibility */
+  margin: 20px 0; /* Reduced space above and below the title */
+  text-align: center; /* Center align title */
+  animation: fadeIn 1s ease-in-out; /* Animation for title */
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #1a1a1a; /* Dark background to match theme */
+  padding: 15px;
+  border-bottom: 2px solid #FFC107; /* Yellow border */
+}
+
+.navbar-brand, .nav-link {
+  color: #FFC107; /* Yellow color for links */
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-brand:hover, .nav-link:hover {
+  color: #ffffff; /* Change to white on hover */
+}
+
+/* Card Styling */
+.card {
+  background-color: #1a1a1a; /* Match card color to background */
+  color: #FFFFFF; /* White text color */
+  border: none; /* No border */
+  padding: 30px; /* Increased padding for more space */
+  margin-bottom: 40px; /* Increased margin below the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  animation: fadeIn 1s ease-in-out; /* Animation for card */
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.02); /* Lift and scale effect on hover */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7); /* Stronger shadow on hover */
+}
+
+/* Profile Photo */
+.profile-photo {
+  border: 2px solid #FFC107; /* Dark Yellow border */
+  width: 150px; /* Adjusted width */
+  height: 150px; /* Adjusted height */
+  object-fit: cover; /* Ensure the photo covers the circle properly */
+  animation: scaleUp 1s ease-in-out; /* Animation for profile photo */
+}
+
+/* Hobbies Card */
+.hobbies-card, .projects-card, .skills-card, .social-network-card, .contact-card {
+  background-color: #1a1a1a; /* Match card color to background */
+  color: #FFFFFF; /* White text color */
+  border: none; /* No border */
+  padding: 30px; /* Increased padding for more space */
+  margin-bottom: 40px; /* Increased margin below the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  animation: fadeIn 1s ease-in-out; /* Animation for card */
+}
+
+/* Skill Sub-cards */
+.skill-subcard {
+  background-color: #2a2a2a; /* Slightly lighter dark background for sub-cards */
+  color: #FFFFFF; /* White text color */
+  border: none; /* No border */
+  padding: 20px; /* Padding inside the sub-cards */
+  margin-bottom: 20px; /* Margin below each sub-card */
+  border-radius: 10px; /* Rounded corners for sub-cards */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  animation: fadeIn 1s ease-in-out; /* Animation for sub-cards */
+}
+
+.skill-subcard:hover {
+  transform: translateY(-5px) scale(1.02); /* Lift and scale effect on hover */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6); /* Stronger shadow on hover */
+}
+
+/* Social Network Card */
+.social-network-card {
+  background-color: #1a1a1a; /* Match card color to background */
+  color: #FFFFFF; /* White text color */
+  border: none; /* No border */
+  padding: 30px; /* Increased padding for more space */
+  margin-bottom: 40px; /* Increased margin below the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  animation: fadeIn 1s ease-in-out; /* Animation for card */
+}
+
+/* Contact Card */
+.contact-card {
+  background-color: #1a1a1a; /* Match card color to background */
+  color: #FFFFFF; /* White text color */
+  border: none; /* No border */
+  padding: 30px; /* Increased padding for more space */
+  margin-bottom: 40px; /* Increased margin below the card */
+  border-radius: 10px; /* Rounded corners for the card */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition */
+  animation: fadeIn 1s ease-in-out; /* Animation for card */
+}
+
+/* Carousel Styling */
+.carousel-item img {
+  border-radius: 10px; /* Rounded corners for carousel images */
+  animation: scaleUp 1s ease-in-out; /* Animation for carousel images */
+}
+
+/* Social Links */
+.social-links a {
+  color: #FFC107; /* Dark Yellow color for icons */
+  margin: 0 15px; /* Spacing between icons */
+  font-size: 1.5rem; /* Slightly larger icons for better visibility */
+  transition: transform 0.3s ease-in-out; /* Smooth transition for scaling */
+}
+
+.social-links a:hover {
+  transform: scale(1.2); /* Scale up effect on hover */
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Carousel Caption Styling */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent dark background for better readability */
+  padding: 20px; /* Padding around the text */
+  border-radius: 10px; /* Rounded corners for the background */
+  text-align: center; /* Center align text */
+}
+
+/* Title in Carousel Caption */
+.carousel-caption h3 {
+  color: #FFC107; /* Dark Yellow color for the title text */
+  font-size: 2rem; /* Adjusted font size for better visibility */
+  margin-bottom: 10px; /* Space below the title */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for better contrast */
+}
+
+/* Text in Carousel Caption */
+.carousel-caption p {
+  color: #FFFFFF; /* White color for the description text */
+  font-size: 1.2rem; /* Adjusted font size for better readability */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7); /* Subtle shadow for better contrast */
+}
+
+/* Add a highlight effect on hover */
+.carousel-caption:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
